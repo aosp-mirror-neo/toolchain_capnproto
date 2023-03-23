@@ -1,0 +1,17 @@
+name: "capnproto"
+description:
+    "Cap'n Proto serialization/RPC system - core tools and C++ library"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://capnproto.org/"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/capnproto/capnproto"
+  }
+  version: "v0.10.3"
+  last_upgrade_date { year: 2023 month: 3 day: 23 }
+  license_type: NOTICE
+}
